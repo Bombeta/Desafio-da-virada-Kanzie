@@ -1,6 +1,6 @@
-body{
-
-}
+/* body{
+    margin-top:20px;
+} */
 
 .container{
     width: 100%;
@@ -17,9 +17,9 @@ body{
     margin-bottom: 40px;
 }
 
-.cabecalho__logo img{
+/* .cabecalho__logo img{
 
-}
+} */
 .cabecalho__logo figcaption{
     display: none;
 }
@@ -28,9 +28,9 @@ body{
 
 }
 
-.cabecalho__menuLista{
+/* .cabecalho__menuLista{
 
-}
+} */
 
 .cabecalho__menuItem{
     margin-bottom: 25px;
@@ -89,19 +89,20 @@ body{
 }
 
 .conteudoPrincipal__listaTweets{
-
+    display: flex;
+    flex-flow: column-reverse nowrap;
 }
 
 .conteudoPrincipal__tweet {
     padding: 20px 30px;
     display: flex;
     align-items: flex-start;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid #d3d3d3;
 }
-
+/* 
 .tweet__fotoPerfil{
 
-}
+} */
 
 .tweet__conteudo{
     margin-left: 15px;
